@@ -1,0 +1,407 @@
+/*공통*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif;}
+a{color: #000}
+a{text-decoration: none}
+body{overflow-x: hidden}
+ul{list-style:none}
+.inner{width: 1440px; margin: 0 auto}
+
+/*header*/
+#header{width: 100%; height: 141px; border-bottom: 1px solid #eeeeee; font-size: 15px; line-height: 141px}
+.logo{float: left}
+.logo>a>img{width: 70%}
+.left_menu>li:hover{text-decoration: underline}
+.right_menu>li:hover{text-decoration: underline}
+.left_menu>li{float: left; padding: 0 10px}
+.left_menu>li:after{display: block; content: ""; clear: both}
+.right_menu{float: right}
+.right_menu>li{float: left; padding: 0 5px 0 0; text-align: center}
+.right_menu:after{display: block; content: ""; clear: both}
+.right_menu>li>img{width: 50%; vertical-align: middle}
+.right_menu>li:after{display: inline-block; content: "|"; clear: both; padding: 0 5px}
+.right_menu>li:last-child:after{display: none}
+
+#mainimg{width: 100%; height: 650px; background-image: url(../images/mainimg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center}
+#mainimg>.inner{width: 1280px;height: 550px; position: relative}
+.main_text{text-align:  left; color: #fff; position: absolute; top: 10%}
+.main_text>h1{font-size: 40px; font-weight: normal; letter-spacing: -1px; padding-bottom: 10%}
+.main_text>h1>span{font-weight: bold}
+.main_text>p{font-size: 18px; padding-bottom: 10%}
+.main_text>.view_btn{background-color: #e4e4e3; width: 173px; height: 63px; color: #000; font-size: 20px; line-height: 63px; text-align: center}
+
+.top_box{width: 100%; margin: 0 auto}
+.top_box>.inner{margin-top: 5%}
+.yellow{float: left; margin-right: 30px}
+.blue{float: left}
+.yellow>img{width:100%}
+.blue>img{width: 100%}
+.top_box:after{display: block; content: ""; clear: both}
+.bottom_box>.inner>h1{text-align: center; margin: 3% 0}
+.box3{background-image: url(../images/box3.jpg); background-repeat: no-repeat; background-position: center center; width: 1410px; height: 590px}
+.view_btn:hover{background-color: #fff}
+.price{width:100%; height: 676px; position: relative; text-align: center; margin-top: 10%}
+.price>h1{text-align: center; left: 0; right: 0; margin: 0 auto}
+.btn_prev{top: 45%; position: absolute; left: 10%}
+.btn_next{top:45%; position: absolute; right: 10%}
+.price_list{position: absolute; left: 0; right: 0; margin: 0 auto; width: 75%; top: 26%}
+.list>img:hover{width: 60%}
+.price_list>.list{width: 25%; float: left}
+.list>p{padding: 10px 0 0}
+.list>dl{padding: 10px 0}
+.list>dl>dd>span{color: #ff5858}
+.list>p{font-weight: bold}
+
+.kakao{width: 100%; height:  237px; border-top: 1px solid #787878;border-bottom: 1px solid #787878}
+.kakao_text>h4 , .kakao_text>p:hover{text-decoration: underline}
+.left_img{float: left}
+.kakao_text{float: left; padding-left: 5%}
+.kakao_text>h4{text-align: center; padding-bottom: 10px}
+.kakao>.inner{margin-top: 4%; text-align: center}
+.kakao_text>p{float: left}
+.kakao_text>p>span>img{margin:  -10px 5px}
+.right_img{float: right}
+.right_img{width: 441px;height: 91px}
+.kakao:after{display: block; content: ""; clear: both}
+
+.review>h1{text-align: center; margin: 10% 0 3%}
+.photo_set{background-color: #f9f9f9; height: 649px; width: 100%; text-align: center}
+.photo_set>.inner{width: 80%}
+.photo_set:after{display: block; content: ""; clear: both}
+.photo:hover{border: 2px solid #a2a2a2}
+.photo_set>.inner>.photo>img{box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)}
+.photo{width: 33%; height: 585px; float: left; padding: 1% 0 0; margin: 0 auto}
+
+#footer{width: 100%; height: 199px; background-color: #e8faff}
+#footer>.inner{width: 80%; position: relative}
+.left_info>ul>li:first-child{color: #676767;margin-top: 10px}
+.left_info>ul>li:first-child>span:before{display: inline-block; content: "|" ; clear: both; padding: 0 5px}
+.left_info>ul>li{padding: 5px 0 0}
+.left_info>ul>li:last-child{color: #676767}
+.left_info{float: left}
+.center_info{float:left}
+.center_info>ul{position: absolute;bottom: 0 ;padding-left:  15%}
+
+.center_info>ul>li>span{font-weight: bold}
+.sns{position: absolute; bottom: 0; right: 0}
+.sns>img{width: 60%}
+#footer>.inner:after{display: block; content: ""; clear: both}
+#footer>.inner>.left_info:hover{text-decoration: underline}
+#footer>.inner>.center_info>ul:hover{text-decoration: underline}
+.sns>img:hover{width: 80%}
+
+
+
+
+/*서브1*/
+#header{width: 100%;height: 180px; position: relative}
+
+.bottom_header>.inner{width: 70%;height: 44px; position: relative}
+.bottom_header{width: 100%; height: 44px;border-top: 1px solid #e6e6e6; position: absolute; left: 0; bottom: 0}
+.menu{line-height: 44px}
+.sub_banner{width: 100%; height: 531px; position: relative}
+.sub_banner>.inner>img{position: absolute; left: 0 ;  right: 0; margin:0 auto; padding: 5% 0 0}
+.sub_banner>.inner>h4{position: absolute; left: 0 ;  right: 0; bottom: 0; text-align: center; font-size: 38px}
+
+.style_box{width: 1440px; height: 1717px; border: 1px solid #2b2b2d; margin: 0 auto; margin-top: 10% ;position: relative}
+
+.sub_box>.style_box>p{position: absolute; background-color: #fff; width: 20%;  left: 2%; text-align: center; top: -1%; font-size: 25px; font-weight: bold}
+
+.styling>.inner{position: relative; width: 1082px; height: 1717px}
+
+.A{position: absolute; left: 0 ; right: 0; margin: 0 auto; margin-top: 15%}
+.A>i{float: left}
+.a_text>h4:hover{text-decoration: underline}
+.A>i>img{width: 90%}
+.a_text{float: right}
+.a_text>h4{font-size: 28px; margin-right: 15px; float: left; letter-spacing: -1px}
+
+.a_text>p{font-size: 24px; padding: 50px 0}
+.a_text>ul>li{font-size: 20px}
+.a_text>ul>li:first-child>span{color: #f95050}
+.a_text{width: 50%}
+.A:after{display: block; content: ""; clear: both}
+
+.box_line{border-top: 1px solid #c6c6c6; margin-bottom: 15%;margin-top: 15%}
+.B{position: absolute; left: 0 ; right: 0; margin: 0 auto; bottom: 15%}
+.B>i{float: right}
+
+.B>i>img{width: 90%}
+.b_text{float: left}
+.b_text>p{font-size: 24px; padding: 50px 0}
+.b_text>ul>li:first-child>span{color: #f95050}
+.b_text>ul>li{font-size: 20px}
+.b_text>h4{font-size: 28px; margin-right: 15px; float: left; letter-spacing: -1px}
+
+.b_text>p{font-size: 24px; padding-top: 50px}
+.b_text>ul>span{color: #f95050}
+.b_text{width: 50%}
+.B:after{display: block; content: ""; clear: both}
+.b_text>h4:hover{text-decoration: underline}
+.option_box{width: 1440px; height: 446px; border: 1px solid #2b2b2d; margin: 0 auto; margin-top: 7% ;position: relative}
+
+.option_box>p{position: absolute; background-color: #fff; width: 15%;  left: 1%; text-align: center; top: -20px; font-size: 25px; font-weight: bold; color: #0038a8}
+
+.list1{width: 20%; float: left; padding: 8% 0; text-align: center}
+.list1>img:hover{width: 30%}
+.list1:nth-child(3)>p{padding-top: 40px}
+.list1>p{padding-top: 20px}
+.list1>p>span{font-weight: bold; font-size: 20px}
+.list1>p{font-size: 18px}
+.option:after{display: block; content: ""; clear: both}
+.notice{width: 100%; margin: 5% 0 5% }
+.notice>.inner{width: 60%; text-align: center}
+.notice_img{float: left}
+.notice_img>p{font-size: 20px; font-weight: bold; color: #f95050}
+.notice_img>img{width: 80%}
+.notice_text{float: right}
+.notice_text>p{font-size: 18px}
+.notice_text>p>span{font-weight: bold}
+.notice:after{display: block; content: ""; clear: both}
+.notice_text>p>span:hover{color: #fa2e54}
+
+/*서브2*/
+.menu2{line-height: 44px}
+.back_color{width: 100%; height: 397px; background-color: #dcdcdc; top: 40px;}
+.back_color:hover{width: 100%; height: 397px; background-color: #fff; top: 40px}
+.sub2_banner>.inner{width: 100%; height: 397px; position: relative}
+.map>img:hover{width: 60%}
+.sub2_banner>.inner>img{position: absolute; left: 30%; top: 20%}
+.sub2_banner>.inner>h1{position: absolute; right: 40%; bottom: 40%; font-size: 40px}
+.sub_contents{width: 100%; margin-top: 10%}
+.sub_contents>.inner{width: 90%}
+.map_text>h3:hover{text-decoration: underline}
+.map_text{float: right; text-align: center}
+.map{margin: 10% 0}
+.map_text>h3{font-size: 35px}
+.map_text>p>span{color: #1d58ce}
+.map:after{display: block; content: ""; clear: both}
+.map_text>h3{padding-bottom: 50px}
+.parking{width: 100%;height: 529px; background-color: #fefce8}
+.parking>.inner{position: relative; width: 90%; height: 529px}
+.parking_box{width: 381px; height: 94px; position: absolute; background-color: #a2a199; left: 0; right: 0; margin: 0 auto; border-radius: 0 0 10px 10px}
+.parking_box:hover{width: 381px; height: 94px; position: absolute; background-color: #515151; left: 0; right: 0; margin: 0 auto; border-radius: 0 0 10px 10px; text-decoration: underline 1px ; color: #fff}
+.parking_box>p{color: #fff; text-align: center; padding-top: 23px; font-size: 30px}
+.parking>.inner>p{text-align: left; padding-top: 10%; font-size: 24px}
+.parking>.inner>p>span{color: #fa2e54}
+
+@media (max-width:1439px)
+{#header{height: 257px}
+    #header>.inner{width: 100%}
+    .logo{float: none; margin: 0 auto; width: 70%; height: 191px; text-align: center}
+    .logo>a>img{width: 25%}
+    .left_menu>li, .right_menu>li{display: none}
+    .left_menu{background-image: url(../images/mobile_menu.png); width: 56px; height: 49px; background-repeat: no-repeat; background-position: center center; float: left; margin: 0 10% 20px }
+    .right_menu{background-image: url(../images/search.png); width: 45px; height: 38px; background-repeat: no-repeat; background-position: center center; float: right; margin: 0 10% 0 20px}
+    .right_menu:after{display: block; content: ""; clear: both}
+    
+    #mainimg {padding-top:calc(650/1920*100%)}
+    #mainimg>.inner{width: 100%}
+    .main_text{left: 5%}
+    
+    .top_box>.inner{width: 100%}
+    .yellow{float: none; text-align: center; padding-bottom: 20px; margin-right: 0}
+    .blue{float: none; text-align: center}
+    .bottom_box>.inner{width: 100%}
+    .box3{background-position:right center;padding-top: calc(590/1410*100%)}
+    
+    .list:nth-child(3), .list:nth-child(4){display: none}
+    .price_list{width: 50%}
+    .price_list>.list{width: 50%}
+    .price_list:after{display: block; content: ""; clear: both}
+    .kakao>.inner{width: 80%}
+    .left_img{float: right}
+    .left_img:after{display: block; content: ""; clear: both}
+    .left_img>img{width: 50%}
+    .right_img>img{width: 70%; float: right}
+    .kakao_text{padding-left: 0}
+    .photo_set>.inner{width: 100%; position: relative} 
+    .photo{width: 40%;float: none; padding: 5% 0 0}
+    .photo_prev{background-image: url(../images/prev.jpg); width: 67px; height: 66px; background-repeat: no-repeat; background-position: center center; background-size: 70%;position: absolute; top: 45%; left: 5%}
+    .photo_next{background-image: url(../images/next.jpg); width: 67px; height: 66px; background-repeat: no-repeat; background-position: center center; background-size: 70%;position: absolute; top: 45%; right: 5%}
+    .photo_set>.inner>.photo:nth-child(3), .photo_set>.inner>.photo:nth-child(4){display: none}
+    
+    .center_info{display: none; float: none}
+    .sns>img{width: 80%}
+    
+    
+ /*서브 태블릿-1439*/   
+.bottom_header{border-top: none}
+    .bottom_header>.inner{top: 40px}
+    .menu{position: absolute; left: 10%}
+    .bottom_header>.inner{border-bottom: 1px solid #e6e6e6; width: 100%}
+    .sub_banner{margin-top: 5%}
+    .sub_banner>.inner>img{width: 100%}
+.banner_img>img{width: 100%}
+    .inner{width: 80%}
+    .styling>.inner{height: 1717px}
+   .sub_box>.style_box>p{font-size: 20px}
+    .styling>.inner{width: 95%}
+    .A>i{width: 50%}
+    .a_text>ul>li{display: none}
+    .a_text>h4{width: 100%; padding-bottom: 30px}
+    .a_text>p{font-size: 28px}
+    .style_box{width: 98%}
+.b_text>ul>li{display: none}
+    .B>i{width: 50%}
+    
+    .b_text>h4{width: 100%; padding-bottom: 30px}
+    .b_text>p{font-size: 28px}
+    .option_list{width: 100%}
+    .option_box{width: 98%; height: auto}
+    .option_box>p{font-size: 20px}
+   
+    .option_list{height: 1100px; position: relative; left: 0; right: 0; margin: 0 auto; width:60%}
+    .list1{float: none}
+    .list1>p{position: absolute; right: 0}
+    .list1>img{width: 90%}
+    .list1:first-child>img{width: 70%}
+    .list1:nth-child(3)>p{padding-top: 0}
+    .list1>p{padding-top: 0}
+    .notice>.inner{width: 100%}
+    .notice_img{float: none; text-align: left; padding: 5% 3% 3%}
+    .notice_img>img{width: 120px; height: 128px}
+    
+    .notice>.inner{width: 90%}
+    .notice_text{float: none}
+    .notice_text{text-align: left; padding: 3%}
+      
+
+    
+    /*서브2*/
+    .bottom_header{border-top: none}
+    .bottom_header>.inner{top: 40px}
+    .menu2{position: absolute; left: 10%}
+    .bottom_header>.inner{border-bottom: 1px solid #e6e6e6; width: 100%}
+    .sub2_banner>.inner{top: 40px}
+    .sub2_banner>.inner>h1{right: 25%}
+    .map_text{float: none}
+    .map:first-child>img{width: 98%}
+    .parking_box{width: 281px; height: 70px}
+    .parking_box>p{padding-top: 15px; font-size: 26px}
+    .parking>.inner{width: 90%}
+    
+}
+
+
+@media(max-width:768px)
+{#header{height: 257px; width: 100%}
+   .logo{float: none; margin: 0 auto; width: 100%; height: 191px; text-align: center}
+    .logo>a>img{width: 25%}
+    .left_menu{background-image: url(../images/mobile_menu.png); width: 50px; height: 49px; background-repeat: no-repeat; background-position: center center; float: left; margin: 0 11% 20px }
+    .right_menu{background-image: url(../images/search.png); width: 45px; height: 38px; background-repeat: no-repeat; background-position: center center; float: right; margin: 0 5% 0 20px}
+    .right_menu:after{display: block; content: ""; clear: both}
+    
+    #mainimg{padding-top: calc(650/1920*100%); }
+    #mainimg>.inner{width: 100%}
+    .yellow{float: none; text-align: center; padding-bottom: 20px; margin-right: 0}
+   
+    .blue{float: none; text-align: center}
+    .box3{width: 100%}
+   .box3{padding-top:calc(590/1410*100%)}
+    .list:nth-child(3), .list:nth-child(4){display: none}
+    .btn_next{display: none}
+    .price_list{width: 100%}
+    .price_list>.list>img{width: 90%}
+    .btn_prev{display: none}
+    .kakao>.inner{width: 100%}
+
+    .left_img:after{display: block; content: ""; clear: both}
+    .left_img>img{width: 50%}
+    .right_img>img{width: 65%}
+    .photo{width: 70%; height: 585px;float: none; padding: 5% 0 0}
+    .photo_prev{background-image: url(../images/prev.jpg); width: 67px; height: 66px; background-repeat: no-repeat; background-position: center center; background-size: 70%;position: absolute; top: 45%; left: 5%}
+    .photo_next{background-image: url(../images/next.jpg); width: 67px; height: 66px; background-repeat: no-repeat; background-position: center center; background-size: 70%;position: absolute; top: 45%; right: 5%}
+    .photo_set>.inner>.photo:nth-child(3), .photo_set>.inner>.photo:nth-child(4){display: none}
+    
+    .left_info{padding-left: 20px}
+    .center_info{display: none; float: none}
+    .sns>img{width: 70%}
+   
+    
+/*서브모바일-768*/
+  
+    .banner_img{width:169px; height:189px; background-image: url(../images/img3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; position: absolute; left: 20%; margin-top: 10%}
+    .banner_img2{width:169px; height:189px; background-image: url(../images/img4.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; position: absolute;right: 20%;margin-top: 10%}
+    
+.sub_banner>.inner>h4{font-size: 32px;}
+.sub_prev{width: 40px;height: 40px;background-image: url(../images/prev.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; position: absolute; top: 40%; left: 5%}
+.sub_next{width: 40px;height: 40px;background-image: url(../images/next.jpg); background-repeat: no-repeat; background-size: cover; background-position: centercenter; position: absolute; top: 40%; right: 5%}
+.style_box{width: 98%}
+.sub_banner>.inner>img{display: none} 
+.sub_banner>.inner>h4{bottom: 30%}
+.sub_box>.style_box>p{width: 30%}
+.a_text{width: 40%} 
+.b_text{width: 40%}
+.B>i{position: absolute; right: 0; float: none}
+.B>i>img{width: 80%}
+.B{padding-left: 10px}
+
+.option_box>p{width: 22%}
+.option_list{width: 60%}
+.list1{width: 30%}
+.notice>.inner{width: 80%}
+#footer>.inner{width: 90%}
+   .sns{display: none}
+
+/*서브2*/
+    .sub2_banner>.inner>h1{right: 10%}
+    .map:nth-child(2)>img{width: 98%}
+    .map:nth-child(3)>img{width: 98%}
+    .parking>.inner>p{width: 100%; font-size: 17px; padding-top: 15%}
+    .parking_box{width: 181px; height: 40px}
+    .parking_box>p{font-size: 18px; padding-top: 7px}
+    .map>img{padding-bottom: 30px}
+     .sns{display: none}
+
+}  
+   @media(max-width:320px)   
+   {#header>.inner{width: 80%}
+       .logo>a>img{width: 50%}
+       .yellow>img{width: 100%}
+       .blue>img{width: 100%}
+       .kakao_text{display: none}
+       .photo{width: 100%;padding-top: 45%}
+       .photo>img{width: 100%}
+       .photo_next{display: none}
+       .photo_prev{display: none}
+       .right_img{width: 441px;height: 91px}
+       .left_info{width:80%; padding: 0}
+       .left_info>ul>li:first-child{margin-top: 0}
+       .left_info>ul>li{padding: 0}
+       #footer>.inner>.sns>img{display: none}
+       .notice>.inner{width: 80%}
+   .sns{display: none}
+
+/*서브*/
+       
+       .left_menu{width: 40px; height: 40px}
+       .right_menu{width: 20%}
+       .banner_img2{display: none}
+       .banner_img{left: 25%}
+       .sub_banner{width: 100%}
+       .sub_banner>.inner{width: 100%}
+       .sub_banner>.inner>h4{font-size: 30px;bottom: 20%}
+       .style_box{width: 80%; height: 1500px}
+       .sub_box>.style_box>p{width: 95%}
+       .styling>.inner{width: 100%; margin-top: 30px}
+       .A>i{float: none}
+       .A>i>img{width: 100%}
+       .a_text{width: 100%}
+       .B>i>img{width: 95%; padding-left: 5px}
+       .B>i{position: unset}
+       .b_text{float: right; width: 100%}
+       .box_line{margin-bottom: 0}
+       .option_box>p{width: 95%}
+       .option_box{width: 80%}
+       .option_list{width: 90%}
+       .list1{width: 60%}
+       .list1>p{position: unset}
+       .notice_img>img{width: 100px; height: 110px}
+       
+       /*서브2*/
+       .sub2_banner>.inner>h1{right: 12%;bottom: 30px}
+       .sub2_banner>.inner>img{width: 40%}
+       .map_text>h3{font-size: 28px}
+       }
