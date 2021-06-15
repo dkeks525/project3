@@ -157,6 +157,8 @@ ul{list-style:none}
             transition: all 0.7s
         }
 
+       
+
 .yellow>img{width:100%}
 .blue>img{width: 100%}
 .top_box:after{display: block; content: ""; clear: both}
