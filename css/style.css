@@ -151,25 +151,9 @@ ul{list-style:none}
             transition: all 0.7s
         }
 
-        .yellow:hover>img {width: 608px;
-            height: 308px;
-            overflow: hidden;
-            border-radius: 50%;
-            margin: 0 30px;
-            transform: scale(1.2);
-            transition: all 0.7s
-        }
+        
 .blue {
             transform: scale(1);
-            transition: all 0.7s
-        }
-
-        .blue:hover>img { width: 508px;
-            height: 308px;
-            overflow: hidden;
-            border-radius: 50%;
-            margin: 0 30px;
-            transform: scale(1.2);
             transition: all 0.7s
         }
 
